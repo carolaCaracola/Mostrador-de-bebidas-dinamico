@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrador de Bebidas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mostrador de Bebidas</h1>
+        <p>Seleccione un Producto<span id="nameProduct"></span></p>
+        <div class="content">
+            <div class="nevera">
+                <div class="showcase">
+                    <div class="prestajes">
+                        <div class="prestaje">
+                            <img id="wine01" class="wine" src="imagenes/vinob.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine02" class="wine" src="imagenes/vinob.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine03" class="wine" src="imagenes/vinob.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine04" class="wine" src="imagenes/wine.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine05" class="wine" src="imagenes/wine.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine06" class="wine" src="imagenes/cava.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine07" class="wine" src="imagenes/cava.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine08" class="wine" src="imagenes/cava.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine09" class="wine" src="imagenes/wine.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="wine10" class="wine" src="imagenes/wine.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                        </div>
+                        <div class="prestaje">
+                             <img id="applejuice01" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             <img id="applejuice02" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             <img id="applejuice03" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             <img id="applejuice04" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             <img id="applejuice05" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             <img id="applejuice06" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             <img id="applejuice07" class="appleJuice" src="imagenes/manzana-bg.png" alt="Apple Juice" draggable="true" ondragstart="drag(event)">
+                             
+                            
+                        </div>
+                        <div class="prestaje">
+                             
+                            <img id="kombucha01" class="kombucha" src="imagenes/kom-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha02" class="kombucha" src="imagenes/kom-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha03" class="kombucha" src="imagenes/kombginger-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha04" class="kombucha" src="imagenes/kombginger-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha05" class="kombucha" src="imagenes/kombucha-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha06" class="kombucha" src="imagenes/kombucha-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha07" class="kombucha" src="imagenes/komvida-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            <img id="kombucha08" class="kombucha" src="imagenes/komvida-bg.png" alt="kombucha" draggable="true" ondragstart="drag(event)">
+                            
+                        </div>
+                        <div class="prestaje" id="p4">
+                            <img id="cocaCola01" class="cocaCola" src="imagenes/cocaCola0-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="cocaCola02" class="cocaCola" src="imagenes/cocaCola-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="cocaCola03" class="cocaCola" src="imagenes/cocaCola-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="cocaCola04" class="cocaCola" src="imagenes/cocaCola0-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="cocaCola05" class="cocaCola" src="imagenes/cocaCola-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="cocaCola06" class="cocaCola" src="imagenes/cocaCola0-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="fanta01" class="fanta" src="imagenes/fanta-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="fanta02" class="fanta" src="imagenes/fanta-bg.png" alt="cocaCola" draggable="true" ondragstart="drag(event)">
+                            <img id="nestea01" class="nestea" src="imagenes/nestea0-bg.png" alt="nestea" draggable="true" ondragstart="drag(event)">
+                            <img id="nestea02" class="nestea" src="imagenes/nestea0-bg.png" alt="nestea" draggable="true" ondragstart="drag(event)">
+                            <img id="nestea03" class="nestea" src="imagenes/nestea0-bg.png" alt="nestea" draggable="true" ondragstart="drag(event)">
+                            <img id="nestea04" class="nestea" src="imagenes/nestea0-bg.png" alt="nestea" draggable="true" ondragstart="drag(event)">
+                        </div>
+       
+                        <div class="prestaje" id="p5">
+                            <img id="beer01" class="beer" src="imagenes/cervezabg.png" alt="beer" draggable="true" ondragstart="drag(event)">
+                            <img id="beer02" class="beer" src="imagenes/cervezabg.png" alt="beer" draggable="true" ondragstart="drag(event)">
+                            <img id="beer03" class="beer" src="imagenes/cervezabg.png" alt="beer" draggable="true" ondragstart="drag(event)">
+                            <img id="water01" class="water" src="imagenes/agua-bg.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="water02" class="water" src="imagenes/agua-bg.png" alt="water" draggable="true" ondragstart="drag(event)">
+                            <img id="water03" class="water" src="imagenes/agua-bg.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="milk01" class="wine" src="imagenes/leche-bg.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="milk02" class="wine" src="imagenes/leche-bg.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                            <img id="milk03" class="wine" src="imagenes/leche-bg.png" alt="Wine" draggable="true" ondragstart="drag(event)">
+                        </div>
+                        
+                    </div>                    
+                </div>
+            </div>
+            <div class="carrito">
+                <div class="carrito-content">
+                    <p>Tu carrito cuesta: <span id="amountBasket"></span> €</p>
+                    <div class="basket" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>

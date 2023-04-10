@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', cursive;
+}
+
+body {
+    text-align: center;
+    background: #e8e8e8;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding-bottom: 5vw;
+}
+
+.container > h1 {
+    padding: 20px 0;
+}
+
+.container > p {
+    border: 2px solid black;
+    background: white;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px 0;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.content {
+    display: flex;
+    padding: 10vw;
+}
+.nevera{
+    padding: 30px;
+    background-color: white;
+}
+
+.showcase {
+    background-image:url(imagenes/nevera.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 50vw;
+    height: 50vw;
+    margin: 0 auto;
+    padding: 11%;
+}
+
+
+.carrito{
+    padding: 0px 20px;
+}
+.carrito-content{
+    background-color: white;
+    padding: 40px;
+}
+.prestajes{
+    width: 100%;
+    height: 100%;
+}
+.prestaje{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items:last baseline;
+    justify-content: center;
+    padding: 2% 5%
+}
+#p4{
+    padding:2% 0% 5% 2%
+}
+#p5{
+    padding-top: 0%;
+    padding-bottom: 4%;
+}
+
+.wine {
+     width: 12%;
+    height: 80%;
+}
+
+.appleJuice {
+    width: 15%;
+    height: 90%;
+   
+}
+
+.kombucha {
+   width: 12%;
+    height: 90%;
+   
+}
+
+.cocaCola {
+    width: 7%;
+    height: 70%;
+    
+}
+
+.nestea {
+    width: 8%;
+    height: 60%;
+   
+}
+
+.beer {
+    width: 12%;
+    height: 70px;
+}
+
+
+.water {
+    width: auto;
+    height: 80%;
+  
+}
+
+.fanta {
+    width: 8%;
+    height: 60%;
+   
+}
+
+.milk {
+    width: 10%;
+    height: 70px;
+    
+}
+
+.smoothie {
+    width: auto;
+    height: 60px;
+    margin-top: 7px;
+    top: 0;
+}
+
+.basket {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('imagenes/cesta.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
