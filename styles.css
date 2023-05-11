@@ -78,15 +78,16 @@ body {
     padding-top: 0%;
     padding-bottom: 4%;
 }
-
+.contenedor-producto{text-align: center;}
 .wine {
-     width: 12%;
-    height: 80%;
+     width: 100%
 }
 
 .appleJuice {
     width: 15%;
     height: 90%;
+    display: block;
+    margin-bottom: 5px;
    
 }
 
@@ -173,3 +174,22 @@ li {
   button:active {
     background-color: #c9430a;
   }
+  p{
+    font-size: 10px;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+
+  }
+  .price {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 3px;
+    background-color: yellow;
+    width: fit-content;
+    margin: -15px 15px;
+    position: fixed;
+    
+}
