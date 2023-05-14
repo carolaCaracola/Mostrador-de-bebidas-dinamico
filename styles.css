@@ -29,7 +29,7 @@ body {
     padding: 10px 0;
     font-size: 20px;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .content {
     display: flex;
@@ -106,17 +106,17 @@ body {
     
 }
 .fanta {
-    width: 120%
+    width: 100%
    
 }
 
 .nestea {
-    width: 120%;
+    width: 100%;
    
 }
 
 .beer {
-    width: 150%;
+    width: 120%;
 }
 
 
@@ -175,13 +175,13 @@ li {
   }
  
   .price {
-    display: block;
+    display:block;
     text-align: center;
     font-size: 9px;
     padding: 2px;
     background-color: yellow;
     width: fit-content;
-    margin: -10px 15px;
+    margin: -12px 25px;
     position: absolute;
     
 }
