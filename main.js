@@ -1,4 +1,4 @@
-const items = document.querySelectorAll('.wine, .appleJuice, .kombucha, .cocaCola, .fanta, .nestea, .beer, .milk, .water');
+const items = document.querySelectorAll('.wine, .appleJuice, .kombucha, .cocaCola, .fanta, .nestea, .beer, .milk, .water, .cava');
 
 items.forEach(item => {
   item.addEventListener('dragstart', event => {
